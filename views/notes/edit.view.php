@@ -45,7 +45,7 @@
             </div>
 
             <div class="mt-6 flex items-center justify-end gap-x-6">
-                <a href="/notes">
+                <a href="/note?id=<?= $note['id'] ?>" class="mt-06 text-grey-500 underline">
                     <button type="button" class="text-sm font-semibold leading-6 text-gray-900">Cancel</button>
                 </a>
 <!--                <form method="POST">-->

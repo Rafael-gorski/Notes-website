@@ -22,6 +22,5 @@ class Container
         $resolver = $this->bindings[$key];
 
         return call_user_func($resolver);
-
     }
 }
