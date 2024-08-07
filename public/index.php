@@ -30,7 +30,7 @@ try {
     Session::flash('errors', $exception->errors);
     Session::flash('old', $exception->old);
 
-    return redirect('/login');
+    return redirect($router->previousUrl());
 }
 
 
