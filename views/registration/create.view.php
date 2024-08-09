@@ -21,11 +21,19 @@
                         </div>
 
                         <div>
+                            <label for="username" class="sr-only">User name</label>
+                            <input id="username" name="username" type="text" autocomplete="email" required
+                                   class="relative block w-full appearance-none rounded-none border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                                   placeholder="User name">
+                        </div>
+
+                        <div>
                             <label for="password" class="sr-only">Password</label>
                             <input id="password" name="password" type="password" autocomplete="current-password" required
                                    class="relative block w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                                    placeholder="Password">
                         </div>
+
                     </div>
 
                     <div>
@@ -39,6 +47,10 @@
                     <ul>
                         <?php if (isset($errors['email'])) : ?>
                             <li class="text-red-500 text-xs mt-2"><?= $errors['email'] ?></li>
+                        <?php endif; ?>
+
+                        <?php if (isset($errors['username'])) : ?>
+                            <li class="text-red-500 text-xs mt-2"><?= $errors['username'] ?></li>
                         <?php endif; ?>
 
                         <?php if (isset($errors['password'])) : ?>
