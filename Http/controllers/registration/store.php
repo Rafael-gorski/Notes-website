@@ -46,9 +46,16 @@ if ($user) {
         'password' => password_hash($password, PASSWORD_BCRYPT)
     ]);
 
-    (new Authenticator)->login(['email' => $email]);
+    $user = $db->query('SELECT * FROM users WHERE email = :email', [
+        'email' => $email
+    ])->find();
+
+    (new Authenticator)->login([
+        'email' => $email,
+        'user_id' => $user['user_id'],
+        'name' => $user['name']
+    ]);
 
     header('location: /');
     exit();
 }
-
