@@ -5,6 +5,16 @@
 <main>
     <div class="container mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <div class="bg-white p-6 rounded-lg shadow-lg mb-8">
+            <h2 class="text-2xl font-semibold mb-4">About the creator</h2>
+            <p class="text-lg mb-4">
+            This website was built by Rafael.
+            </p>
+            <p class="text-lg mb-4">
+                I am currently studying Information Systems at Descomplica University, where I am deepening my knowledge in PHP with a focus on Magento. I aim to work with IT, leveraging my skills in APIs (especially Postman), databases, and programming languages such as PHP, CSS, and HTML.
+            </p>
+            <p class="text-lg mb-4">
+                Currently, I work as an intern in N1 support at DigitalHub, where I gain practical experience and continuously enhance my technical competencies. I value continuous education and am always seeking personal and professional improvement.
+            </p>
             <h2 class="text-2xl font-semibold mb-4">Our Learning Journey</h2>
             <p class="text-lg mb-4">
                 This website was built as part of our learning PHP journey. Our primary goal

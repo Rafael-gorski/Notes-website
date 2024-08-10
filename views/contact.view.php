@@ -2,32 +2,24 @@
 <?php require('partials/nav.php') ?>
 <?php require("partials/banner.php"); ?>
 
+<main>
     <div class="container mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <div class="bg-white p-6 rounded-lg shadow-lg mb-8">
-            <h2 class="text-2xl font-semibold mb-4">Contact!</h2>
-<!--            <p class="text-lg mb-4">-->
-<!--                This website was built as part of our learning PHP journey. Our primary goal-->
-<!--                was to understand the fundamentals of PHP while creating a functional web application. Through this-->
-<!--                project, we explored how PHP interacts with databases, handles form submissions, and generates dynamic-->
-<!--                content.-->
-<!--            </p>-->
-<!--            <p class="text-lg mb-4">-->
-<!--                Additionally, we used Laracasts as a valuable resource to guide our learning process. Laracasts is an-->
-<!--                amazing website with a lot of tutorials and classes to guide new and experienced learners into the php world.-->
-<!--                By applying the concepts learned, we were able to build a simple yet effective note-taking application.-->
-<!--            </p>-->
-<!--            <h2 class="text-2xl font-semibold mb-4">Why PHP?</h2>-->
-<!--            <p class="text-lg mb-4">-->
-<!--                PHP is a widely-used server-side scripting language that is essential for web development. Because of that,-->
-<!--                our project used PHP to create a simple but robust and maintainable web application.-->
-<!--            </p>-->
-<!--            <h2 class="text-2xl font-semibold mb-4">Our Project Highlights</h2>-->
-<!--            <ul class="list-disc list-inside mb-6">-->
-<!--                <li>Created a user-friendly interface for managing notes</li>-->
-<!--                <li>Implemented CRUD (Create, Read, Update, Delete) functionality</li>-->
-<!--                <li>Integrated with a MySQL database to store notes</li>-->
-<!--            </ul>-->
+            <h2 class="text-2xl font-semibold mb-4">You can find me at:</h2>
+            <p>If you enjoyed exploring my website, consider following me on GitHub and LinkedIn to stay updated with my latest projects and professional updates.</p>
+            <div class="flex flex-col py-6 space-y-4">
+                <a href="https://github.com/Rafael-gorski" class="flex items-center space-x-2 text-gray-700 underline hover:text-blue-500">
+                    <img class="h-11 w-11" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png?20180806170715" alt="GitHub Icon">
+                    <span>Github</span>
+                </a>
+                <a href="https://www.linkedin.com/in/rafael-gorski/" class="flex items-center space-x-2 text-gray-700 underline hover:text-blue-500">
+                    <img class="h-11 w-11" src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Ec-linkedin.png" alt="LinkedIn Icon">
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+            </a>
         </div>
     </div>
+</main>
 
 <?php require('partials/footer.php') ?>
