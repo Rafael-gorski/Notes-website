@@ -11,7 +11,7 @@
             <div class="bg-white p-6 rounded-lg shadow-lg mb-8">
                 <h2 class="text-2xl font-bold"><?= htmlspecialchars($note['title']); ?></h2>
                 <p class="mt-6">
-                    <?= htmlspecialchars($note['body']); ?>
+                    <?= nl2br(htmlspecialchars($note['body'])) ?>
                 </p>
 
 
